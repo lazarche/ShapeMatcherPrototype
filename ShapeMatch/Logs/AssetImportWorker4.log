@@ -1,0 +1,601 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 7530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/lazar/Documents/GitHub/ShapeMatcherPrototype/ShapeMatch
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52134
+Successfully changed project path to: C:/Users/lazar/Documents/GitHub/ShapeMatcherPrototype/ShapeMatch
+C:/Users/lazar/Documents/GitHub/ShapeMatcherPrototype/ShapeMatch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lazar/Documents/GitHub/ShapeMatcherPrototype/ShapeMatch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3765 MB
+    Driver:   27.20.21030.8001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009463 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 102.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007721 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1475ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3798 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (56.0 KB). Loaded Objects now: 4255.
+Memory consumption went from 142.9 MB to 142.9 MB.
+Total: 4.718400 ms (FindLiveObjects: 0.565200 ms CreateObjectMapping: 0.147400 ms MarkObjects: 3.892600 ms  DeleteObjects: 0.110700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24598.404059 seconds.
+  path: Assets/Cutout1 1.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout1 1.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc6c310b03c4924d7010cdc1fa2ba2') in 0.118329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.128739 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002252697680b62ad142438ba08ec6e6') in 0.025816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.030114 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f842728af872448eea2478fcd8442b') in 0.018946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.563481 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375039809f9e3d5406d0e0afa2b8f1e5') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.816895 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd14462458ab7e71c02200aeea3f31c1') in 0.019429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983692 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec10f4591a06f324bf2269b31cc79f4') in 0.012152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.659262 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32925f50c21b8cd42f2c49b3e208972b') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597357 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc28c2ea428c9d31a2ca663c43e793f') in 0.015034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.440728 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877527e22235c9a6f364e1b578777d09') in 0.010957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396408 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f396e5f8bc1ca1807e2eff8e26eb365') in 0.014471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381565 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b71bd1c2b596fcf2b08f368e25c9e1f') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.977632 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4df9d0b4b8f194aedab48dc4f176919') in 0.016543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.283099 seconds.
+  path: Assets/Cutout2.prefab
+  artifactKey: Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2.prefab using Guid(952e63e6249f2694a8458c9b8eb765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6b6bd02621e0f693ddd435311114cb') in 0.010424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.253141 seconds.
+  path: Assets/Cutout2 1.prefab
+  artifactKey: Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout2 1.prefab using Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64dfa3fd202620dd0104e90dc631415') in 0.016492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.553911 seconds.
+  path: Assets/Cutout3.prefab
+  artifactKey: Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout3.prefab using Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e69c3bac71172740ae8d99d7eb864ab') in 0.016000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.847476 seconds.
+  path: Assets/Cutout3.prefab
+  artifactKey: Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout3.prefab using Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a805db206f5ea80d457c2d9c350bff68') in 0.011617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.414323 seconds.
+  path: Assets/Cutout3.prefab
+  artifactKey: Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout3.prefab using Guid(552106c208c97404fb47be8751ded360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51fe4159467aaff9e9b109e2ab82430') in 0.011112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.687064 seconds.
+  path: Assets/Cutout3 1.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout3 1.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f42c284e447c3f65be6647904cedcdd') in 0.017078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.460936 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56884c6656b3454e5377177b2a82d70') in 0.017137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.119609 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b3def82e7680998f8ca64a942e472') in 0.011821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404989 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47ffc06e9e5144e848633133c6cc00d') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.226973 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5583a4401ccbf7f5fa6ee28ad11196') in 0.011647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.782837 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366d2682a082d2a8b954266528995d62') in 0.011830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.204361 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04182383ebe4ff809f939ce952326c61') in 0.011499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389914 seconds.
+  path: Assets/Cutout4.prefab
+  artifactKey: Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4.prefab using Guid(baeb29191155c4b40a8a91374628e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330090f25f565930ca3a2242d1cf9fac') in 0.011118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.678627 seconds.
+  path: Assets/Cutout4 1.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout4 1.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f4835c6ae2e5a645d716a5923af4d6') in 0.014257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.934299 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdfdaba27896ab4befe824be1144e56') in 0.017109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.348768 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17951193794b9cb29ac5c96d7ec26712') in 0.012624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588378 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906684b0e552c01583632e34e9d6b1d5') in 0.014389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.997343 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f0e8b8a6babcb5afdf2f9d4b8e3960') in 0.014822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.208183 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff6b83f98ca462f09961366a886fb8') in 0.011942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978593 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add4ac1665cd12433b7448b2c4955db1') in 0.019346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.476664 seconds.
+  path: Assets/Cutout5.prefab
+  artifactKey: Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5.prefab using Guid(57bc65e92f240264ea6459e029a00fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fef871b2aca1a1c19f3d44da21f287') in 0.011888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.623644 seconds.
+  path: Assets/Cutout5 1.prefab
+  artifactKey: Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout5 1.prefab using Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6acbf260453d8104b9664c07763493') in 0.018409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.439730 seconds.
+  path: Assets/Cutout6.prefab
+  artifactKey: Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout6.prefab using Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4af40627e0ed541fa13620852e50c3') in 0.016506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.873500 seconds.
+  path: Assets/Cutout6.prefab
+  artifactKey: Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout6.prefab using Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae3ca3b9b5cb4faaeadf221a1396c84') in 0.011048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.254717 seconds.
+  path: Assets/Cutout6.prefab
+  artifactKey: Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout6.prefab using Guid(b5b85f46857fdb2469fb6240e4bd1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c2484ad7fd15bf58e741d7f8359cac') in 0.011826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.495284 seconds.
+  path: Assets/Cutout6 1.prefab
+  artifactKey: Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout6 1.prefab using Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e962d1a9dfbe260e57209f0e1d872a5') in 0.017384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.676583 seconds.
+  path: Assets/Cutout7.prefab
+  artifactKey: Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout7.prefab using Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87f3bbdcb8d2c7e4f4b0ee06e582f0c') in 0.016995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.116429 seconds.
+  path: Assets/Cutout7.prefab
+  artifactKey: Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout7.prefab using Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7682babfbabe06eca593392af35e00e') in 0.014392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.027830 seconds.
+  path: Assets/Cutout7.prefab
+  artifactKey: Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutout7.prefab using Guid(b7bf541b29e7d894f8ecc55690f7ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72ea673353b372854e277529cf5fc90') in 0.015038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.666887 seconds.
+  path: Assets/CuttOuts/Outside/Cutout1.prefab
+  artifactKey: Guid(1e8d23dc70b399246b205852b8a04e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CuttOuts/Outside/Cutout1.prefab using Guid(1e8d23dc70b399246b205852b8a04e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc16e8f47f97c396cb4105046234cbe') in 0.006396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.909526 seconds.
+  path: Assets/CuttOuts/Outside/Cutout1 1.prefab
+  artifactKey: Guid(28f42691dace4de4e9e806f2472f74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CuttOuts/Outside/Cutout1 1.prefab using Guid(28f42691dace4de4e9e806f2472f74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9873cffa46e41b683048d13ec3d8cec6') in 0.013294 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006895 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4266.
+Memory consumption went from 146.7 MB to 146.7 MB.
+Total: 3.606200 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.109700 ms MarkObjects: 3.103300 ms  DeleteObjects: 0.033900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007507 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <a017e354f3154926a5617fbac3a64fcc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <a017e354f3154926a5617fbac3a64fcc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\lazar\Documents\GitHub\ShapeMatcherPrototype\ShapeMatch\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <a017e354f3154926a5617fbac3a64fcc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (929ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3789 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.8 KB). Loaded Objects now: 4270.
+Memory consumption went from 146.9 MB to 146.9 MB.
+Total: 6.262400 ms (FindLiveObjects: 0.482400 ms CreateObjectMapping: 0.203100 ms MarkObjects: 5.504700 ms  DeleteObjects: 0.069900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

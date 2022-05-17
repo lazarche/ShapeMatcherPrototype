@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnvMove : MonoBehaviour
 {
-    public float speed = -1.5f;
+    public float speed = -2.25f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,8 @@ public class EnvMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(this.transform.position.z < -20) {
+            Destroy(this.gameObject, 0);
+        }
     }
 }

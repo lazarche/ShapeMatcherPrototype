@@ -12,7 +12,6 @@ public class TargetTarget : MonoBehaviour
     void Update()
     {
         float distToShoulder = Vector3.Distance(target.position, shoulder.position);
-        Debug.Log(distToShoulder);
         
         float offset = (lenght - (distToShoulder/lenght)) * zFix;
 
