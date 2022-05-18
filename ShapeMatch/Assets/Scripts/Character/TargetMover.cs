@@ -25,14 +25,14 @@ public class TargetMover : MonoBehaviour
             Physics.Raycast(ray, out hit);
             if(hit.transform == this.transform) {
                 focus = true;
-                //HideOther();
+                HideOther();
             }
         } else {
             if(focus) {
                 Vector3 temp = basePosition.transform.position;
                     temp.Set(temp.x, temp.y, zOffset);
                 this.gameObject.transform.position = temp;//basePosition.transform.position;
-                //ShowOther();
+                ShowOther();
             }
             focus = false;
         } 
@@ -66,7 +66,7 @@ public class TargetMover : MonoBehaviour
         foreach (GameObject go in toHide)
         {
             if(go != this.gameObject)
-            go.GetComponent<MeshRenderer>().enabled = false;
+            go.GetComponent<MeshCollider>().enabled = false;
         }
     }
 
@@ -75,7 +75,7 @@ public class TargetMover : MonoBehaviour
 
         foreach (GameObject go in toHide)
         {
-            go.GetComponent<MeshRenderer>().enabled = true;
+            go.GetComponent<MeshCollider>().enabled = true;
         }
     }
 }
