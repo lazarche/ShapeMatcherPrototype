@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class CuttOutMove : MonoBehaviour
 {
-    bool touch, spawned = false;
+    bool spawned = false;
     GameObject controller;
     public GameObject outline;
     // Start is called before the first frame update
     void Start()
     {     
         controller = GameObject.Find("GameController");
-        touch = false;
     }
 
     void OnCollisionEnter(Collision collision) {
-        touch = true;
+        controller.GetComponent<GameM>().GameLose();
     }
 
     // Update is called once per frame
@@ -26,16 +25,13 @@ public class CuttOutMove : MonoBehaviour
             outline = Instantiate(outline, new Vector3(0,0,0), Quaternion.Euler(0,180,0));
         }
 
-        transform.Translate(new Vector3(0,0,2f) * Time.deltaTime); 
+        // transform.Translate(new Vector3(0,0,2f) * Time.deltaTime); 
+
         if(transform.position.z < -1) {
-            Destroy(this.gameObject);
-            Destroy(outline, 0);
-            if(!touch) {
-                controller.GetComponent<GameM>().score += 10;
-            }
-
-
-        }
-            
+           // Destroy(this.gameObject);
+           this.gameObject.GetComponent<MeshCollider>().enabled = false;
+           this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            DestroyImmediate(outline);
+        }    
     }
 }

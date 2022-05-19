@@ -11,13 +11,13 @@ public class TargetTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distToShoulder = Vector3.Distance(target.position, shoulder.position);
+        // float distToShoulder = Vector3.Distance(target.position, shoulder.position);
         
-        float offset = (lenght - (distToShoulder/lenght)) * zFix;
+        // float offset = (lenght - (distToShoulder/lenght)) * zFix;
 
-        if(distToShoulder < lenght)
-            this.transform.position = target.position - new Vector3(0,0, offset);
-            else
+        // if(distToShoulder < lenght)
+        //     this.transform.position = target.position - new Vector3(0,0, offset);
+        //     else
             this.transform.position = target.position;
 
         

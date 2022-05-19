@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class EnvMove : MonoBehaviour
 {
-    public float speed = -2f;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0,0,speed) * Time.deltaTime); 
-        if(this.transform.position.z < -20) {
+        transform.Translate(new Vector3(0,0,GlobalVariables.gameSpeed) * Time.deltaTime); 
+        if(this.transform.position.z < -40) {
             Destroy(this.gameObject, 0);
         }
     }

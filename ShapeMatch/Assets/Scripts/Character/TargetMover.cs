@@ -9,16 +9,20 @@ public class TargetMover : MonoBehaviour
     private bool focus = false;
     public float zOffset = 0.5f;
     float distanceFromCamera;
+
+    GameObject controller;
     [SerializeField] GameObject basePosition;
     // Update is called once per frame
 
     void Start() {
-        distanceFromCamera = Vector3.Distance(this.transform.position, Camera.main.transform.position);
+        controller = GameObject.Find("GameController");
+        distanceFromCamera = 7; //Vector3.Distance(this.transform.position, Camera.main.transform.position);
     }
 
     void Update()
     {
         if(Input.GetMouseButton(0)) {
+            controller.GetComponent<GameM>().GameStart();
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             // Casts the ray and get the first game object hit
@@ -47,7 +51,7 @@ public class TargetMover : MonoBehaviour
     void WriteMouseClick() {
         Vector3 worldPosition;
         Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 10;
+        mousePos.z = distanceFromCamera;
         worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
         worldPosition.z = this.gameObject.transform.position.z;
 
@@ -66,7 +70,9 @@ public class TargetMover : MonoBehaviour
         foreach (GameObject go in toHide)
         {
             if(go != this.gameObject)
-            go.GetComponent<MeshCollider>().enabled = false;
+                go.GetComponent<MeshCollider>().enabled = false;
+
+            go.GetComponent<MeshRenderer>().enabled = false;
         }
     }
 
@@ -76,6 +82,7 @@ public class TargetMover : MonoBehaviour
         foreach (GameObject go in toHide)
         {
             go.GetComponent<MeshCollider>().enabled = true;
+            //go.GetComponent<MeshRenderer>().enabled = true;
         }
     }
 }

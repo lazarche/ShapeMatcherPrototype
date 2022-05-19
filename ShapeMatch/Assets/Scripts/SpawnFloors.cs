@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class SpawnFloors : MonoBehaviour
 {
-    int minL = 20, maxL = 30;
+    int minL = 3, maxL = 10;
     int lenght;
-    public GameObject floor;
-    public GameObject[] cuttouts;
-    public GameObject point;
+    public GameObject[] chunks;
 
     // Start is called before the first frame update
     void Start()
@@ -17,23 +15,8 @@ public class SpawnFloors : MonoBehaviour
         lenght = Random.Range(minL, maxL);
 
         for(int i = 0; i < lenght; i++) {
-            GameObject temp = Instantiate(floor, new Vector3(0, -0.4f, i*10f), Quaternion.identity);
-
-
-            if(i%2 == 0){
-                Instantiate(cuttouts[Random.Range(0, cuttouts.Length)], new Vector3(0, 0, i*10f), Quaternion.Euler(0,180,0));
-            }
-            if(i%2 == 1) {
-                Instantiate(point , new Vector3(Random.Range(0.3f, 1.9f) * Mathf.Sign(Random.Range(-1,1)), Random.Range(0, 1.9f), i*10f), Quaternion.Euler(0,180,0));
-            }
+            GameObject temp = Instantiate(chunks[Random.Range(0, chunks.Length)], new Vector3(0, -0.5f, i*40f), Quaternion.identity);
         }
     }
 
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
