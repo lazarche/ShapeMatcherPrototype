@@ -13,8 +13,8 @@ public class SpawnFloors : MonoBehaviour
     {
         
         lenght = Random.Range(minL, maxL);
-
-        for(int i = 0; i < lenght; i++) {
+        Instantiate(chunks[0], new Vector3(0, -0.5f, 0), Quaternion.identity);
+        for (int i = 1; i < lenght; i++) {
             GameObject temp = Instantiate(chunks[Random.Range(0, chunks.Length)], new Vector3(0, -0.5f, i*60f), Quaternion.identity);
         }
     }

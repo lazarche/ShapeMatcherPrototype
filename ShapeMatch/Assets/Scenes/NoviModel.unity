@@ -894,6 +894,37 @@ MonoBehaviour:
   shoulder: {fileID: 355003652}
   lenght: 1
   zFix: 2
+--- !u!1 &509538509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509538510}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &509538510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509538509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5660589, y: 4.7631826, z: 0.78687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553456763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3974016661214395164, guid: 660ccad9d11a166499229dff463f0e9a, type: 3}
@@ -1024,7 +1055,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -2773,10 +2804,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chunks:
-  - {fileID: 6645070114032595043, guid: 634d67bdd7e9a4542900ff0c001b0fdf, type: 3}
-  - {fileID: 8757204672564157535, guid: f96c0ba7cb554ba4ba3b0baac229da2f, type: 3}
-  - {fileID: 4951530651828535435, guid: ca929ecdbc3d3594e86a4dba4f5275f1, type: 3}
-  - {fileID: 931478187528355455, guid: 85226eb17858fdf43aca079d9fdd5dde, type: 3}
+  - {fileID: 5481897728631123835, guid: 799e8ebdb317d204c80f453d4ad67c10, type: 3}
+  - {fileID: 3227875237795865361, guid: 119987feae3029148b979cc35614c0df, type: 3}
+  - {fileID: 5481897728631123835, guid: 799e8ebdb317d204c80f453d4ad67c10, type: 3}
 --- !u!114 &1604969064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,6 +2823,7 @@ MonoBehaviour:
   textScore: {fileID: 320673174}
   youLost: {fileID: 388103045}
   tryButton: {fileID: 1698724743}
+  theFinga: {fileID: 715466693}
 --- !u!4 &1616294053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3746190272939815206, guid: 660ccad9d11a166499229dff463f0e9a, type: 3}

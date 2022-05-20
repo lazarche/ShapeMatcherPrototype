@@ -10,7 +10,8 @@ public class GameM : MonoBehaviour
     
     public int score = 0;
     public GameObject textScore;
-    public GameObject youLost, tryButton;
+    public GameObject youLost, tryButton,theFinga;
+
     bool started = false;
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class GameM : MonoBehaviour
     }
 
     public void GameStart() {
+        theFinga.SetActive(false);
         if(!started) {
             started = true;
             GlobalVariables.gameSpeed = -5;
