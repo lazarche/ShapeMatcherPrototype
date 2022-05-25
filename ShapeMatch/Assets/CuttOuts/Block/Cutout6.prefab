@@ -112,3 +112,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outline: {fileID: 3194481882865904328, guid: dd2460f33891fa64fab63f228d17eca5, type: 3}
+  sound: {fileID: 1831630864564401290, guid: 0aa51005f53d6d34eb25adef8441e2bf, type: 3}

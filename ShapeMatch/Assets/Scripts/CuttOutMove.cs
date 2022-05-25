@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CuttOutMove : MonoBehaviour
 {
     bool spawned = false;
     GameObject controller;
     public GameObject outline;
+    public AudioSource sound;
     // Start is called before the first frame update
     void Start()
     {     
@@ -32,6 +34,10 @@ public class CuttOutMove : MonoBehaviour
            this.gameObject.GetComponent<MeshCollider>().enabled = false;
            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
             DestroyImmediate(outline);
-        }    
+        }
+        if (transform.position.z <= -0.2)
+        {
+            sound.Play();
+        }
     }
 }

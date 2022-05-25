@@ -111,4 +111,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d775fad941bf76648ae7744144929980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outline: {fileID: 3194481882865904328, guid: 474cebbadc5cce14cbb0f8e49aa03bf7, type: 3}
+  outline: {fileID: 3194481882865904328, guid: b3bff5a50c1888a40bc82b5ee2045643, type: 3}
+  sound: {fileID: 1831630864564401290, guid: 0aa51005f53d6d34eb25adef8441e2bf, type: 3}
