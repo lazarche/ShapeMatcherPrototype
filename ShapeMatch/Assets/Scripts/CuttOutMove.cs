@@ -8,7 +8,7 @@ public class CuttOutMove : MonoBehaviour
     bool spawned = false;
     GameObject controller;
     public GameObject outline;
-    public AudioSource sound;
+    //public AudioSource sound;
     // Start is called before the first frame update
     void Start()
     {     
@@ -35,9 +35,9 @@ public class CuttOutMove : MonoBehaviour
            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
             DestroyImmediate(outline);
         }
-        if (transform.position.z <= -0.2)
-        {
-            sound.Play();
-        }
+        // if (transform.position.z <= -0.2)
+        // {
+        //     sound.Play();
+        // }
     }
 }
